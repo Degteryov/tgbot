@@ -12,3 +12,6 @@ bot.onText(/привет/, function (msg, match) {
     bot.sendMessage(userId, 'Привет:)');
 	console.log('af');
 });
+require('http').createServer().listen(process.env.PORT || 5000).on('request', function(req, res){
+    res.end('')
+})
