@@ -9,7 +9,7 @@ bot.onText(/привет!/, function (msg, match) {
 	
     notes.push( { 'uid':userId, 'time':time, 'text':text } );
 	
-    bot.sendMessage(userId, 'Отлично! Я обязательно напомню, если не сдохну :)');
+    bot.sendMessage(userId, 'Привет:)');
 	console.log('af');
 });
 
